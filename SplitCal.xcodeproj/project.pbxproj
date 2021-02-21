@@ -3,19 +3,36 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		410A22F925D10443006B600A /* ViewModelSignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410A22F825D10443006B600A /* ViewModelSignUp.swift */; };
+		410A22FE25D1086E006B600A /* ViewModelLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410A22FD25D1086E006B600A /* ViewModelLogin.swift */; };
 		410B93C225A5857200891244 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410B93C125A5857200891244 /* AppDelegate.swift */; };
 		410B93C425A5857200891244 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410B93C325A5857200891244 /* SceneDelegate.swift */; };
 		410B93C625A5857200891244 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410B93C525A5857200891244 /* ViewController.swift */; };
 		410B93C925A5857200891244 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 410B93C725A5857200891244 /* Main.storyboard */; };
 		410B93CB25A5857300891244 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 410B93CA25A5857300891244 /* Assets.xcassets */; };
 		410B93CE25A5857300891244 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 410B93CC25A5857300891244 /* LaunchScreen.storyboard */; };
+		410B93D825A585FA00891244 /* CalculationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410B93D725A585FA00891244 /* CalculationViewController.swift */; };
+		410B93F625A5880100891244 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410B93F525A5880100891244 /* ProfileViewController.swift */; };
+		410B93F925A5881300891244 /* HistoryCellViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410B93F825A5881300891244 /* HistoryCellViewController.swift */; };
+		410B93FC25A5883100891244 /* PastRecordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410B93FB25A5883100891244 /* PastRecordViewController.swift */; };
+		410B940025A5888000891244 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410B93FF25A5888000891244 /* LoginViewController.swift */; };
+		410B940325A5892500891244 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410B940225A5892500891244 /* ResultViewController.swift */; };
+		410B940825A58A3B00891244 /* UIExtension-1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410B940725A58A3B00891244 /* UIExtension-1.swift */; };
+		4169DC1C25A7F99E00EF2D96 /* UIExtension-2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4169DC1B25A7F99E00EF2D96 /* UIExtension-2.swift */; };
+		41745DD225D073EA002C6F96 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41745DD125D073EA002C6F96 /* SignUpViewController.swift */; };
+		41A184BC25AA56D100C31006 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 41A184BB25AA56D100C31006 /* GoogleService-Info.plist */; };
+		41F80BFD25B0C777002A1C9C /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F80BFC25B0C777002A1C9C /* User.swift */; };
+		41F80C0225B0C7B6002A1C9C /* Results.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F80C0125B0C7B6002A1C9C /* Results.swift */; };
+		B69128045A9219E3CCC7FDE7 /* Pods_SplitCal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 934B70A0FD84C44EDFD7E86A /* Pods_SplitCal.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		410A22F825D10443006B600A /* ViewModelSignUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelSignUp.swift; sourceTree = "<group>"; };
+		410A22FD25D1086E006B600A /* ViewModelLogin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelLogin.swift; sourceTree = "<group>"; };
 		410B93BE25A5857200891244 /* SplitCal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SplitCal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		410B93C125A5857200891244 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		410B93C325A5857200891244 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +41,22 @@
 		410B93CA25A5857300891244 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		410B93CD25A5857300891244 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		410B93CF25A5857300891244 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		410B93D725A585FA00891244 /* CalculationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculationViewController.swift; sourceTree = "<group>"; };
+		410B93F525A5880100891244 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		410B93F825A5881300891244 /* HistoryCellViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryCellViewController.swift; sourceTree = "<group>"; };
+		410B93FB25A5883100891244 /* PastRecordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PastRecordViewController.swift; sourceTree = "<group>"; };
+		410B93FF25A5888000891244 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		410B940225A5892500891244 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		410B940725A58A3B00891244 /* UIExtension-1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIExtension-1.swift"; sourceTree = "<group>"; };
+		4169DC1B25A7F99E00EF2D96 /* UIExtension-2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIExtension-2.swift"; sourceTree = "<group>"; };
+		41745DD125D073EA002C6F96 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		41A184BB25AA56D100C31006 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		41A81E2325D1CE5200423044 /* SplitCal.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SplitCal.entitlements; sourceTree = "<group>"; };
+		41F80BFC25B0C777002A1C9C /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		41F80C0125B0C7B6002A1C9C /* Results.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Results.swift; sourceTree = "<group>"; };
+		934B70A0FD84C44EDFD7E86A /* Pods_SplitCal.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SplitCal.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B76234901491D9DC77AC1F3 /* Pods-SplitCal.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SplitCal.debug.xcconfig"; path = "Target Support Files/Pods-SplitCal/Pods-SplitCal.debug.xcconfig"; sourceTree = "<group>"; };
+		B34F82F773FF2792E96615BD /* Pods-SplitCal.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SplitCal.release.xcconfig"; path = "Target Support Files/Pods-SplitCal/Pods-SplitCal.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +64,31 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B69128045A9219E3CCC7FDE7 /* Pods_SplitCal.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		410A22FB25D10536006B600A /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				410B93FF25A5888000891244 /* LoginViewController.swift */,
+				41745DD125D073EA002C6F96 /* SignUpViewController.swift */,
+				410A22F825D10443006B600A /* ViewModelSignUp.swift */,
+				410A22FD25D1086E006B600A /* ViewModelLogin.swift */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
 		410B93B525A5857200891244 = {
 			isa = PBXGroup;
 			children = (
 				410B93C025A5857200891244 /* SplitCal */,
 				410B93BF25A5857200891244 /* Products */,
+				7B18057A6914AB3717ACB6B7 /* Pods */,
+				F61933FB57B252A3C7DD3CD2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +103,76 @@
 		410B93C025A5857200891244 /* SplitCal */ = {
 			isa = PBXGroup;
 			children = (
-				410B93C125A5857200891244 /* AppDelegate.swift */,
-				410B93C325A5857200891244 /* SceneDelegate.swift */,
-				410B93C525A5857200891244 /* ViewController.swift */,
-				410B93C725A5857200891244 /* Main.storyboard */,
-				410B93CA25A5857300891244 /* Assets.xcassets */,
+				41A81E2325D1CE5200423044 /* SplitCal.entitlements */,
+				41A184BB25AA56D100C31006 /* GoogleService-Info.plist */,
+				410B93FE25A5884100891244 /* Tools */,
+				41F80BFF25B0C77E002A1C9C /* Struct */,
+				410B93D725A585FA00891244 /* CalculationViewController.swift */,
+				410A22FB25D10536006B600A /* Authentication */,
+				410B940225A5892500891244 /* ResultViewController.swift */,
+				410B93F425A587D900891244 /* Complicated Stuff */,
+				410B940625A58A1B00891244 /* Extensions */,
 				410B93CC25A5857300891244 /* LaunchScreen.storyboard */,
 				410B93CF25A5857300891244 /* Info.plist */,
 			);
 			path = SplitCal;
+			sourceTree = "<group>";
+		};
+		410B93F425A587D900891244 /* Complicated Stuff */ = {
+			isa = PBXGroup;
+			children = (
+				410B93F525A5880100891244 /* ProfileViewController.swift */,
+				410B93F825A5881300891244 /* HistoryCellViewController.swift */,
+				410B93FB25A5883100891244 /* PastRecordViewController.swift */,
+			);
+			path = "Complicated Stuff";
+			sourceTree = "<group>";
+		};
+		410B93FE25A5884100891244 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				410B93C125A5857200891244 /* AppDelegate.swift */,
+				410B93C325A5857200891244 /* SceneDelegate.swift */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		410B940625A58A1B00891244 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				410B940725A58A3B00891244 /* UIExtension-1.swift */,
+				4169DC1B25A7F99E00EF2D96 /* UIExtension-2.swift */,
+				410B93C525A5857200891244 /* ViewController.swift */,
+				410B93C725A5857200891244 /* Main.storyboard */,
+				410B93CA25A5857300891244 /* Assets.xcassets */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		41F80BFF25B0C77E002A1C9C /* Struct */ = {
+			isa = PBXGroup;
+			children = (
+				41F80BFC25B0C777002A1C9C /* User.swift */,
+				41F80C0125B0C7B6002A1C9C /* Results.swift */,
+			);
+			path = Struct;
+			sourceTree = "<group>";
+		};
+		7B18057A6914AB3717ACB6B7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9B76234901491D9DC77AC1F3 /* Pods-SplitCal.debug.xcconfig */,
+				B34F82F773FF2792E96615BD /* Pods-SplitCal.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F61933FB57B252A3C7DD3CD2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				934B70A0FD84C44EDFD7E86A /* Pods_SplitCal.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +182,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 410B93D225A5857300891244 /* Build configuration list for PBXNativeTarget "SplitCal" */;
 			buildPhases = (
+				2C4F72919EEEA6D3E25ADDF0 /* [CP] Check Pods Manifest.lock */,
 				410B93BA25A5857200891244 /* Sources */,
 				410B93BB25A5857200891244 /* Frameworks */,
 				410B93BC25A5857200891244 /* Resources */,
+				A20EF18BC1FF53433D577067 /* [CP] Embed Pods Frameworks */,
+				B26FECB4138E794BA9F3917C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -125,6 +236,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				410B93CE25A5857300891244 /* LaunchScreen.storyboard in Resources */,
+				41A184BC25AA56D100C31006 /* GoogleService-Info.plist in Resources */,
 				410B93CB25A5857300891244 /* Assets.xcassets in Resources */,
 				410B93C925A5857200891244 /* Main.storyboard in Resources */,
 			);
@@ -132,14 +244,86 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2C4F72919EEEA6D3E25ADDF0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SplitCal-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A20EF18BC1FF53433D577067 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SplitCal/Pods-SplitCal-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SplitCal/Pods-SplitCal-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SplitCal/Pods-SplitCal-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B26FECB4138E794BA9F3917C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SplitCal/Pods-SplitCal-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SplitCal/Pods-SplitCal-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SplitCal/Pods-SplitCal-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		410B93BA25A5857200891244 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				410B93C625A5857200891244 /* ViewController.swift in Sources */,
+				410B93F925A5881300891244 /* HistoryCellViewController.swift in Sources */,
+				4169DC1C25A7F99E00EF2D96 /* UIExtension-2.swift in Sources */,
 				410B93C225A5857200891244 /* AppDelegate.swift in Sources */,
+				410A22FE25D1086E006B600A /* ViewModelLogin.swift in Sources */,
+				41F80BFD25B0C777002A1C9C /* User.swift in Sources */,
+				410B940825A58A3B00891244 /* UIExtension-1.swift in Sources */,
+				410B93F625A5880100891244 /* ProfileViewController.swift in Sources */,
+				410B940025A5888000891244 /* LoginViewController.swift in Sources */,
+				41745DD225D073EA002C6F96 /* SignUpViewController.swift in Sources */,
+				410B93FC25A5883100891244 /* PastRecordViewController.swift in Sources */,
+				41F80C0225B0C7B6002A1C9C /* Results.swift in Sources */,
+				410B93D825A585FA00891244 /* CalculationViewController.swift in Sources */,
 				410B93C425A5857200891244 /* SceneDelegate.swift in Sources */,
+				410A22F925D10443006B600A /* ViewModelSignUp.swift in Sources */,
+				410B940325A5892500891244 /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,39 +467,49 @@
 		};
 		410B93D325A5857300891244 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B76234901491D9DC77AC1F3 /* Pods-SplitCal.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SplitCal/SplitCal.entitlements;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_TEAM = 7Q54M9F3YT;
 				INFOPLIST_FILE = SplitCal/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.LongNguyen39.SplitCal.SplitCal;
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.LongNguyen39.SplitCal;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		410B93D425A5857300891244 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B34F82F773FF2792E96615BD /* Pods-SplitCal.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SplitCal/SplitCal.entitlements;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_TEAM = 7Q54M9F3YT;
 				INFOPLIST_FILE = SplitCal/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.LongNguyen39.SplitCal.SplitCal;
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.LongNguyen39.SplitCal;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
