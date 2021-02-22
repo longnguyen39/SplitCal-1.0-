@@ -25,6 +25,7 @@
 		4169DC1C25A7F99E00EF2D96 /* UIExtension-2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4169DC1B25A7F99E00EF2D96 /* UIExtension-2.swift */; };
 		41745DD225D073EA002C6F96 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41745DD125D073EA002C6F96 /* SignUpViewController.swift */; };
 		41A184BC25AA56D100C31006 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 41A184BB25AA56D100C31006 /* GoogleService-Info.plist */; };
+		41EE1D4225E37B0C008C0917 /* NotePodfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41EE1D4125E37B0C008C0917 /* NotePodfile.swift */; };
 		41F80BFD25B0C777002A1C9C /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F80BFC25B0C777002A1C9C /* User.swift */; };
 		41F80C0225B0C7B6002A1C9C /* Results.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F80C0125B0C7B6002A1C9C /* Results.swift */; };
 		B69128045A9219E3CCC7FDE7 /* Pods_SplitCal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 934B70A0FD84C44EDFD7E86A /* Pods_SplitCal.framework */; };
@@ -52,6 +53,7 @@
 		41745DD125D073EA002C6F96 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		41A184BB25AA56D100C31006 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		41A81E2325D1CE5200423044 /* SplitCal.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SplitCal.entitlements; sourceTree = "<group>"; };
+		41EE1D4125E37B0C008C0917 /* NotePodfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotePodfile.swift; sourceTree = "<group>"; };
 		41F80BFC25B0C777002A1C9C /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		41F80C0125B0C7B6002A1C9C /* Results.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Results.swift; sourceTree = "<group>"; };
 		934B70A0FD84C44EDFD7E86A /* Pods_SplitCal.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SplitCal.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -105,6 +107,7 @@
 			children = (
 				41A81E2325D1CE5200423044 /* SplitCal.entitlements */,
 				41A184BB25AA56D100C31006 /* GoogleService-Info.plist */,
+				41EE1D4125E37B0C008C0917 /* NotePodfile.swift */,
 				410B93FE25A5884100891244 /* Tools */,
 				41F80BFF25B0C77E002A1C9C /* Struct */,
 				410B93D725A585FA00891244 /* CalculationViewController.swift */,
@@ -312,6 +315,7 @@
 				410B93F925A5881300891244 /* HistoryCellViewController.swift in Sources */,
 				4169DC1C25A7F99E00EF2D96 /* UIExtension-2.swift in Sources */,
 				410B93C225A5857200891244 /* AppDelegate.swift in Sources */,
+				41EE1D4225E37B0C008C0917 /* NotePodfile.swift in Sources */,
 				410A22FE25D1086E006B600A /* ViewModelLogin.swift in Sources */,
 				41F80BFD25B0C777002A1C9C /* User.swift in Sources */,
 				410B940825A58A3B00891244 /* UIExtension-1.swift in Sources */,
